@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "totemcursor",
+  "version": "${version}",
+  "name": "TotemCursor",
+  "description": "Al abrir el inventario, mueve el cursor al totem mas cercano. Tu lo equipas manualmente.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.totemcursor.TotemCursorMod"]
+  },
+  "mixins": ["totemcursor.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
