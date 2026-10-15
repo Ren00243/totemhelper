@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.totemcursor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "HandledScreenAccessor",
+    "MouseAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
